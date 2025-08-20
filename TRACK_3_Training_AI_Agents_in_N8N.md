@@ -27,18 +27,14 @@ Stappenplan:
 
 1.  **Maak een nieuwe workflow in N8N.**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](media/image1.png)
+![](media/image1.png)
 
 2.  **Voeg een Chat Trigger node toe.**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](media/image2.png)
-![A screenshot of a chat AI-generated
-content may be incorrect.](media/image3.png)
+![](media/image2.png)
+![](media/image3.png)
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](media/image4.png)
+![](media/image4.png)
 
 Je kunt nu de chat gebruiken om berichtjes te sturen. Test dit uit.
 

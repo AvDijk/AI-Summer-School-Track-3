@@ -25,28 +25,20 @@ Stappenplan:
 1.  **Maak een nieuwe workflow in N8N.**
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/image1.png){width="6.0in"
-height="1.2722222222222221in"}
-
-**\
-**
+incorrect.](media/image1.png)
 
 2.  **Voeg een Chat Trigger node toe.**
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/image2.png){width="1.6879844706911635in"
-height="1.8703291776027997in"}![A screenshot of a chat AI-generated
-content may be incorrect.](media/image3.png){width="3.629179790026247in"
-height="2.993653762029746in"}
+incorrect.](media/image2.png)
+![A screenshot of a chat AI-generated
+content may be incorrect.](media/image3.png)
 
 ![A screenshot of a chat AI-generated content may be
-incorrect.](media/image4.png){width="3.1098337707786525in"
-height="3.058363954505687in"}
+incorrect.](media/image4.png)
 
 Je kunt nu de chat gebruiken om berichtjes te sturen. Test dit uit.
 
-**\
-**
 
 3.  **Voeg een AI Agent node toe en verbind deze met de Chat Trigger.**
 

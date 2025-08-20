@@ -19,8 +19,9 @@ Kortom: pak een kop koffie (of thee, of een energy drink – geen oordeel 😉),
 
 ## Niveau 1: Simpele Agent met een Brein, Geheugen en Tools. 
 
-Doel: Begrijpen hoe je een basisagent opzet in N8N met de AI Agent node
-en input via de Chat Trigger node.
+Navigeer naar n8n: Open n8n in je browser en zorg dat je bent ingelogd. Dit kan een lokale installatie zijn of de cloudversie, afhankelijk van hoe je n8n gebruikt.
+
+Doel van deze eerste stap is het begrijpen hoe je een basisagent opzet in N8N met de AI Agent node en input via de Chat Trigger node.
 
 Stappenplan:
 

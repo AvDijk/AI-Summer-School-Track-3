@@ -1,11 +1,13 @@
 # Training: AI Agents bouwen in N8N
 
-Deze training bestaat uit acht niveaus waarin je leert hoe je AI Agents
-bouwt in N8N met behulp van de AI Agent node. Voor elk wordt een
-stappenplan meegegeven.
+Deze training neemt je stap voor stap mee in het bouwen van een AI Agent in n8n.
 
-Voel je vrij om af te wijken van deze gids, en zelf een agent te bouwen
-die beter aansluit op jouw behoeftes!
+Het doel is dat je niet alleen leert hoe je een werkende agent opzet, maar ook inzicht krijgt in de mogelijkheden en flexibiliteit van n8n. Je kunt de voorbeelden uit deze gids volgen, maar voel je vrij om hier en daar af te wijken en zelf te experimenteren. Vaak ontdek je tijdens het bouwen nieuwe ideeën die goed aansluiten bij je eigen workflow of use case.
+
+Zie dit document dus niet als een strikte handleiding, maar meer als een route die je kunt aanpassen aan je eigen situatie. Aan het eind heb je niet alleen een AI Agent draaien, maar ook de kennis om deze verder uit te breiden of te integreren met andere tools.
+
+Kortom: pak een kop koffie (of thee, of een energy drink – geen oordeel 😉), zet je creativiteit aan en laten we samen je eigen AI Agent bouwen.
+
 
 ## Benodigdheden
 

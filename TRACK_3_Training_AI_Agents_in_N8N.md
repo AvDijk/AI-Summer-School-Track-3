@@ -42,17 +42,15 @@ Je kunt nu de chat gebruiken om berichtjes te sturen. Test dit uit.
 
 3.  **Voeg een AI Agent node toe en verbind deze met de Chat Trigger.**
 
-![](media/image5.png){width="6.0in" height="2.39375in"}
+![](media/image5.png)
 
-![A screenshot of a chat message AI-generated content may be
-incorrect.](media/image6.png){width="2.567496719160105in"
-height="3.256026902887139in"}
+![](media/image6.png)
 
 Deze AI agent krijgt als input de data die je via de chat hebt
 verstuurd. Test het maar eens uit, kun je voorspellen wat er gaat
 gebeuren ?
 
-![](media/image7.png){width="6.0in" height="2.176388888888889in"}
+![](media/image7.png)
 
 Als de logs niet zichtbaar zijn moet je ze vanaf beneden aan het scherm
 uitklappen.
@@ -61,14 +59,12 @@ De agent heeft nog geen brein (LLM model)! Die moeten we nog toevoegen.
 
 4.  **Voeg een Azure Open AI chat model toe aan de Agent**
 
-![](media/image8.png){width="6.0in" height="2.69375in"}
+![](media/image8.png)
 
 Je kunt hiervoor verbinden met een deployment binnen onze Azure
 omgeving. Deze werkende key wordt na deze meeting verwijderd.
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](media/image9.png){width="4.597711067366579in"
-height="3.8058825459317585in"}
+![](media/image9.png)
 
 **Resource Name :** Azure-OpenAI-DDDB-FR
 
@@ -82,9 +78,7 @@ Test connection zou groen moeten zijn.
 
 **Model (Deployment) Name** = gpt-4o
 
-![A screenshot of a chat mode AI-generated content may be
-incorrect.](media/image10.png){width="3.3247659667541556in"
-height="3.494083552055993in"}
+![](media/image10.png)
 
 Je hebt nu een brein ter beschikking !
 
@@ -93,7 +87,7 @@ voor die kiezen.
 
 5.  **Test de workflow door een vraag te stellen via de chatinterface.**
 
-## ![A screenshot of a computer AI-generated content may be incorrect.](media/image11.png){width="6.0in" height="3.5340277777777778in"}
+## ![](media/image11.png)
 
 Je kunt handig meevolgen in de interface welke nodes actief zijn.
 
@@ -105,8 +99,7 @@ agentic workflows. Kies je favoriete nummer en vraag de Agent om die
 nader toe te lichten. Wat merk je op? Kun je een goed gesprek voeren met
 je agent ?
 
-**\
-**
+
 
 6.  **Memory toevoegen**
 
@@ -114,13 +107,9 @@ Je agent weet niet meer wat hij eerder heeft gezegd. Logisch want hij
 heeft nog geen geheugen. Laten we die toevoegen op door op '+ Memory' te
 clicken onder de Agent.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](media/image12.png){width="6.0in"
-height="2.640277777777778in"}
+![](media/image12.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](media/image13.png){width="6.0in"
-height="2.473611111111111in"}
+![](media/image13.png)
 
 Er wordt gevraagd om een session ID in te vullen. Deze parameter is heel
 belangrijk.
@@ -138,12 +127,9 @@ Aan de linkerkant van het scherm zie je de input waar je Agent gebruik
 van kan maken. Als je daar 'variables and context' openklapt, kun je
 verschillende type informatie toeslepen naar de Session ID box.
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](media/image14.png){width="2.915576334208224in"
-height="2.2960159667541555in"}
+![](media/image14.png)
 
-**\
-**
+
 
 7.  **Toolbox toevoegen**
 
@@ -151,15 +137,11 @@ De agent is bijna gereed. We kunnen communiceren, maar hij kan nog niets
 voor me doen. Laten we een Agent bouwen die onze google calendar kan
 beheren.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](media/image15.png){width="6.0in"
-height="2.061111111111111in"}
+![](media/image15.png)
 
 Verbindt met je google account en pas de settings aan.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](media/image16.png){width="2.8239249781277342in"
-height="5.4501968503937in"}
+![](media/image16.png)
 
 Je zult twee tools moeten toevoegen.
 
@@ -173,8 +155,7 @@ moeten maken van de tools. Gaat alles goed ?
 *Als je andere ideeen hebt, voel je vrij om die uit te proberen. Laat je
 inspireren door alle integraties die binnen n8n bestaan.*
 
-**\
-**
+
 
 8.  **System Message invullen**
 
@@ -185,9 +166,7 @@ hier mee.
 Ga naar de AI Agent's settings, en voeg een nieuwe 'System Message'
 setting toe.
 
-![A screenshot of a chat message AI-generated content may be
-incorrect.](media/image17.png){width="2.963325678040245in"
-height="4.501255468066492in"}
+![](media/image17.png)
 
 Hier kun je helder zetten wat het doel is van de agent en wat/wanneer
 hij de verschillende tools moet gebruiken.
@@ -214,53 +193,39 @@ Trigger Node moeten vervangen door de Telegram 'Get a chat' trigger.
 Deze kun je vinden door op telegram te zoeken in de Nodes Panel, en door
 te klikken.
 
-![A screenshot of a social media page AI-generated content may be
-incorrect.](media/image18.png){width="4.372208005249344in"
-height="3.055990813648294in"}
+![](media/image18.png)
 
 Ook voor telegram moet je een nieuwe credential aanmaken, door de
 instructies te volgen :
 
 [Telegram: Launch \@BotFather](https://telegram.me/BotFather)
 
-![A screenshot of a video game AI-generated content may be
-incorrect.](media/image19.png){width="2.4525503062117235in"
-height="2.5888035870516184in"}
+![](media/image19.png)
 
 Start deze bot (het wordt een extra gesprek op je telegram desktop) en
 stuur het commando '/new bot' naar deze bot.
 
-![A screenshot of a chatbot AI-generated content may be
-incorrect.](media/image20.png){width="4.112228783902013in"
-height="3.2636045494313213in"}
+![](media/image20.png)
 
 Je zult een leuke naam moeten verzinnen voor de bot. Wanner je klaar
 bent krijg je een link om met de bot te activeren en er mee te chatten,
 zowel als een Access Token om de bot van buitenaf te benaderen. Deze vul
 je in de 'Create Credentials' in. Als het is gelukt wordt het groen.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](media/image21.png){width="6.166666666666667in"
-height="2.6458333333333335in"}
+![](media/image21.png)
 
 De settings van de AI agent moeten geupdate worden zodat de User Prompt
 (input) vanuit de Telegram trigger komt.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](media/image22.png){width="6.0in"
-height="3.504166666666667in"}
+![](media/image22.png)
 
 Om te testen of dit werkt moet je op 'execute workflow' clicken, en
 daarna een bericht sturen naar de bot die verbonden is met n8n.
 (andersom werkt ook).
 
-![A red rectangle with white text AI-generated content may be
-incorrect.](media/image23.png){width="1.7474628171478566in"
-height="0.5482239720034996in"}
+![](media/image23.png)
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](media/image24.png){width="2.650158573928259in"
-height="2.5247058180227473in"}
+![](media/image24.png)
 
 Wanneer de flow goed is gerunned, wil je daar ook van op de hoogte
 worden gehouden. Verbind daarom de AI Agent met een 'Telegram, send a
@@ -269,7 +234,7 @@ Agent (die kan je krijgen door een succesvolle executie te runnen).
 
 Full flow
 
-![](media/image25.png){width="6.0in" height="3.1729166666666666in"}
+![](media/image25.png)
 
 Proficiat, je bent tot het einde gekomen. Je weet nu hoe je een LLM kunt
 bouwen in een low-code environment, en je bent beter bewust van de
@@ -278,8 +243,7 @@ meer aan de high-code kant zit, hoop ik dat deze oefening je een beter
 conceptueel beeld heeft kunnen geven van wat er onderwater gebeurt en
 hoe de communicatie lijntjes lopen tussen de agent en de tools.
 
-***\
-***
+
 
 ## Niveau 2 : Twee Agents + een Manager Agent
 

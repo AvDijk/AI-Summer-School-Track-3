@@ -286,3 +286,5 @@ Stappenplan:
 
 Je hebt nu alle informatie tot je beschikking om iets te bouwen die jouw
 kan helpen.
+
+Zoek je inspiratie voor een project? Kijk dan op de n8n site naar al bestaande templates.
